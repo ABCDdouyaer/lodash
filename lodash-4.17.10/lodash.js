@@ -8,23 +8,23 @@
  */
 ;(function() {
 
-  /** Used as a safe reference for `undefined` in pre-ES5 environments. */
+  /** 定义undefined */
   var undefined;
 
-  /** Used as the semantic version number. */
+  /** 定义版本号 */
   var VERSION = '4.17.10';
 
-  /** Used as the size to enable large array optimizations. */
+  /** 最大数组长度200 */
   var LARGE_ARRAY_SIZE = 200;
 
-  /** Error message constants. */
+  /** 错误的常量数据 */
   var CORE_ERROR_TEXT = 'Unsupported core-js use. Try https://npms.io/search?q=ponyfill.',
       FUNC_ERROR_TEXT = 'Expected a function';
 
-  /** Used to stand-in for `undefined` hash values. */
+  /** hash值无定义 */
   var HASH_UNDEFINED = '__lodash_hash_undefined__';
 
-  /** Used as the maximum memoize cache size. */
+  /** 最大记忆缓存500 */
   var MAX_MEMOIZE_SIZE = 500;
 
   /** Used as the internal argument placeholder. */
